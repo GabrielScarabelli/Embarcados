@@ -14,7 +14,7 @@ Software Mínimo Adotado: Linux; C
 
 
 
-### Projeto dividido em 4 etapas a serem atacadas:
+## Projeto dividido em 4 etapas a serem atacadas:
 
   #### Etapa 1 - Conexão com o driver EPOS
     File EPOSControl -> Biblioteca para controle da EPOS
@@ -31,7 +31,12 @@ Software Mínimo Adotado: Linux; C
           of actions.
 
   #### Etapa 3 - Leitura do Encoder
-
+     File: CANMotorController.h
+     Desc: The object that represents an EPOS motor controller on a CAN bus.
+           A CANMotorController is configured and controlled using sequences of
+           CANMotorControllerActions. 'Configuration' actions are assumed to be a
+           persistant list of tasks that should be carried out to configure
+           a motor controller.
 
   #### Etapa 4 - Atualizar posição do motor (Leitura e reenvio)
     File: SDOField.h
