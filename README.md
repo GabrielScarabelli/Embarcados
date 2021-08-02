@@ -33,7 +33,7 @@ Software Mínimo Adotado: Linux; C
   #### Etapa 3 - Leitura do Encoder
 
 
-  Etapa 4 - Atualizar posição do motor (Leitura e reenvio)
+  #### Etapa 4 - Atualizar posição do motor (Leitura e reenvio)
     File: SDOField.h
     Desc: An object that configures either a read or a write of an SDO field
           from a CAN Open node
