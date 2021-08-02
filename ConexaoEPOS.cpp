@@ -29,7 +29,7 @@ int main()
     CANChannel* pChannel = EPOS_OpenCANChannel( "libCanUSBDriver.so", "32", eBR_1M );
 
 
-    // Wait for Ctrl-C
+    // Aguarda
     pause();
     
     // Finaliza a Biblioteca
