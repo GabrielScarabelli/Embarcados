@@ -1,5 +1,9 @@
-# Embarcados
+# Projeto Sistemas Embarcados
 Repositório para tarefas de Sistemas Embarcados dos alunos Gabriel Scarabelli, Bruno Gianesi e Leonardo Masson
+
+Bruno Gianesi N°USP: 10308822
+Gabriel Scarabelli N° USP: 10308930
+Leonardo Masson N°USP: 9267449
 
 Projeto 2: Movimentação ponto a ponto de um eixo de robo reabilitação.
 
@@ -42,3 +46,17 @@ Software Mínimo Adotado: Linux; C
     File: SDOField.h
     Desc: An object that configures either a read or a write of an SDO field
           from a CAN Open node
+          
+   
+## Proposta final do projeto
+### Conexão Cliente Servidor
+##### Desenvolvimento do server utilizando a biblioteca socket do python
+  1) Estabelece conexao
+  2) Aguarda mensagem do client
+  3) Envia nova mensagem ("eco") para o client
+##### Conectar o client por TCP
+  1) Endereço do host
+  2) conecta socket server
+  3) TCP
+  4) Envio da mensagem
+  5) Aguarda retorno server
