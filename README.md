@@ -18,7 +18,7 @@ Software Mínimo Adotado: Linux; C
 
 
 
-## Projeto dividido em 4 etapas a serem atacadas:
+## Proposta Inicial - Projeto dividido em 4 etapas a serem atacadas:
 
   #### Etapa 1 - Conexão com o driver EPOS
     File EPOSControl -> Biblioteca para controle da EPOS
