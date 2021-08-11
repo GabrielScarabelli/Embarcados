@@ -7,7 +7,7 @@ Leonardo Masson N°USP: 9267449
    
 ## Proposta final do projeto
 ### Conexão Cliente Servidor
-##### Desenvolvimento do server utilizando a biblioteca socket do python
+##### Desenvolvimento do server utilizando a biblioteca socket do python pelo arquivo HostServer.py (Que será rodado local)
 No caso o HOST utilizado é: 127.0.0.1 e a porta 1234
   1) Estabelece conexao com o cliente:
 
@@ -54,7 +54,7 @@ No caso o HOST utilizado é: 127.0.0.1 e a porta 1234
               break
 ```
 
-##### Conectar o client por TCP
+##### No caso do cliente, conectamos ele por TCP (O programa Cliente.c sera rodado dentro da placa)
   1) Abre o socket tipo TCP
 ```
   	sockId = socket(AF_INET, SOCK_STREAM, 0);
