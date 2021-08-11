@@ -6,6 +6,7 @@ Gabriel Scarabelli N° USP: 10308930
 Leonardo Masson N°USP: 9267449
    
 ## Proposta final do projeto
+A idéia é fazer com que o cliente se conecte com um servidor e que esses consigam trocar mensagens em uma especie de "echo"
 ### Conexão Cliente Servidor
 ##### Desenvolvimento do server utilizando a biblioteca socket do python pelo arquivo HostServer.py (Que será rodado local)
 No caso o HOST utilizado é: 127.0.0.1 e a porta 1234
