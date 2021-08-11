@@ -5,9 +5,9 @@
  *
  * Funcao:     Enviar e receber streams compostos de caracteres
  * Plataforma: Linux (Unix), ou Windows com CygWin
- * Compilar:   gcc -Wall Cliente_Embarcado.c -o   Cliente_Embarcado
- * Compilar para a placa: ${CC} ClienteEmC.c -o   Cliente_Embarcado
- * Uso:        ./ Cliente_Embarcado Endereco_IP_ou_nome_do_servidor porta_do_servidor
+ * Compilar:   gcc -Wall Cliente.c -o   Cliente
+ * Compilar para a placa: ${CC} Cliente.c -o   Cliente
+ * Uso:        ./ Cliente Endereco_IP_ou_nome_do_servidor porta_do_servidor
  *
  * Bruno Gianesi N°USP: 10308822
  * Leonardo Masson N°USP: 9267449
