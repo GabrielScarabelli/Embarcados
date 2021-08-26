@@ -18,7 +18,14 @@ Objetivo: Operar um grau de liberdade do robo comunicando-se com o sistema de ac
  - Testes em laboratório
 
 # Diagrama inicial do projeto:
-![alt text](https://github.com/GabrielScarabelli/Embarcados/blob/main/Diagrama%20de%20Blocos%20v2.pdf?raw=true)
+
+<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/GabrielScarabelli/Embarcados/blob/main/Diagrama%20de%20Blocos%20v2.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/GabrielScarabelli/Embarcados/blob/main/Diagrama%20de%20Blocos%20v2.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+![Image Title](https://github.com/GabrielScarabelli/Embarcados/blob/main/Diagrama%20de%20Blocos%20v2.pdf){width=65%}
 
 ## Criação do "Echo" entre cliente e servidor
 A idéia é fazer com que o cliente se conecte com um servidor e que esses consigam trocar mensagens em uma especie de "echo"
