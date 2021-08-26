@@ -121,6 +121,8 @@ No caso o HOST utilizado é: 127.0.0.1 e a porta 1234
 
 ## Video do funcionamento:
 
+![Image](https://github.com/GabrielScarabelli/Embarcados/blob/main/VideoEmbarcados.gif?raw=true)
+
 https://github.com/GabrielScarabelli/Embarcados/blob/main/VideoEmbarcados.mp4
 
 ## Como o "echo" se encaixa no projeto de Movimentação ponto a ponto de um eixo de robo reabilitação:
