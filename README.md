@@ -1,11 +1,26 @@
 # Projeto Sistemas Embarcados
 Repositório para tarefas de Sistemas Embarcados dos alunos Gabriel Scarabelli, Bruno Gianesi e Leonardo Masson
 
-Bruno Gianesi N°USP: 10308822
+Bruno Gianesi N°USP: 10308822 
+
 Gabriel Scarabelli N° USP: 10308930
+
 Leonardo Masson N°USP: 9267449
-   
-## Proposta final do projeto
+
+## Proposta: Movimentação ponto a ponto de um eixo de robo reabilitação
+
+Objetivo: Operar um grau de liberdade do robo comunicando-se com o sistema de acionamento ESCON e fazendo a leitura de encorders se utilizando de conhecimentos adquiridos durante a disciplina Sistemas Embarcados.
+
+# Principais marcos:
+ - Entendimento do problema
+ - Desenvolvimento do diagrama
+ - Criação do "echo"
+ - Testes em laboratório
+
+# Diagrama inicial do projeto:
+![alt text](https://github.com/GabrielScarabelli/Embarcados/blob/main/Diagrama%20de%20Blocos%20v2.pdf?raw=true)
+
+## Criação do "Echo" entre cliente e servidor
 A idéia é fazer com que o cliente se conecte com um servidor e que esses consigam trocar mensagens em uma especie de "echo"
 ### Conexão Cliente Servidor
 ##### Desenvolvimento do server utilizando a biblioteca socket do python pelo arquivo HostServer.py (Que será rodado local)
@@ -102,3 +117,21 @@ No caso o HOST utilizado é: 127.0.0.1 e a porta 1234
 		printf("O servidor retornou %zu caracteres: [%s]\n", strlen(buf), buf);
 		memset(buf,0,sizeof(buf));
 ```
+
+## Video do funcionamento:
+
+https://github.com/GabrielScarabelli/Embarcados/blob/main/VideoEmbarcados.mp4
+
+## Como o "echo" se encaixa no projeto de Movimentação ponto a ponto de um eixo de robo reabilitação:
+
+Basicamente o "echo" demonstra a possibilidade da troca de informações entre um servidor (host - computador no laboratório) e um cliente (Placa Toradex). Nesse contexto, ele permitiria que o host pudesse enviar as informações de posição ao driver do robô, permitindo a movimentação.
+Além disso, o "echo" também permite que que o próprio robô envie informações de volta ao host.
+
+Com essa tecnologia, também é possível que exista uma interação homem-máquina de maneira remota, através da interface construída, a fim de proporcionar uma maior visualização dos dados de entrada e de saída.
+
+## Conclusão:
+Então, neste trabalho, conseguimos obter esse êxito na comunicação entre servidor e cliente, que pode ser usando tanto nesse contexto, quanto em muitos outros na área de sistemas embarcados.
+
+Como próximos passos, seria desejável que se construísse o controle do protótipo através das informações que são trocadas a partir do "echo" e se montasse o hardware necessário para testes da tarefa.
+
+
