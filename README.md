@@ -132,6 +132,8 @@ Além disso, o "echo" também permite que que o próprio robô envie informaçõ
 
 Com essa tecnologia, também é possível que exista uma interação homem-máquina de maneira remota, através da interface construída, a fim de proporcionar uma maior visualização dos dados de entrada e de saída.
 
+Além do projeto em questão, o "echo" também seria utilizado em outros projetos apresentados, como por exemplo no projeto de "Estação Meteorológica para Microclima".
+
 ## Conclusão:
 Então, neste trabalho, conseguimos obter esse êxito na comunicação entre servidor e cliente, que pode ser usando tanto nesse contexto, quanto em muitos outros na área de sistemas embarcados.
 
