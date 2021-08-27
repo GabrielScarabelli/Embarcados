@@ -19,7 +19,8 @@ Objetivo: Operar um grau de liberdade do robo comunicando-se com o sistema de ac
 
 # Diagrama inicial do projeto:
 
-![Image](https://github.com/GabrielScarabelli/Embarcados/blob/main/Diagrama%20de%20Blocos%20v2.jpeg?raw=true)
+![Image](https://github.com/GabrielScarabelli/Embarcados/blob/2191a5609309f393a448399f581dce34cf24f9d7/diagrama_final.JPG?raw=true)
+
 
 ## Criação do "Echo" entre cliente e servidor
 A idéia é fazer com que o cliente se conecte com um servidor e que esses consigam trocar mensagens em uma especie de "echo"
